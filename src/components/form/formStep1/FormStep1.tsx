@@ -1,5 +1,6 @@
 import { SetStateAction, useState } from 'react';
 import styled from 'styled-components';
+import { getObjectKeysAndTypes } from './getObjectKeysAndTypes';
 
 export const Form = styled.form`
   display: flex;
@@ -24,7 +25,7 @@ const FormStep1 = ({ setStep, formValues, setFormValues }: FormInterface) => {
   const handleSubmit = (e: { preventDefault: () => void }) => {
     e.preventDefault();
     console.log('form 1 submitted');
-    setFormValues();
+    setFormValues(getObjectKeysAndTypes(textInput));
     setStep(2);
   };
 

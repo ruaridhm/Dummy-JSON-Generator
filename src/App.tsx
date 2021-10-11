@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styled from 'styled-components';
-import FormStep1 from './components/form/FormStep1';
+import FormStep1 from './components/form/formStep1/FormStep1';
 import FormStep2 from './components/form/FormStep2';
 
 const AppContainer = styled.div`

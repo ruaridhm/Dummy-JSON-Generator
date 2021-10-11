@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import styled from 'styled-components';
-import { Form, FormInterface } from './FormStep1';
+import { Form, FormInterface } from './formStep1/FormStep1';
 import BooleanItem from './itemTypes/BooleanItem';
 import NullItem from './itemTypes/NullItem';
 import NumberItem from './itemTypes/NumberItem';

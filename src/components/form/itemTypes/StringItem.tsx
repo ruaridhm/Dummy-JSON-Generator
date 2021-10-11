@@ -1,4 +1,3 @@
-import { ChangeEventHandler } from 'react';
 import styled from 'styled-components';
 import ItemContainer from './ItemContainer';
 
@@ -16,7 +15,6 @@ const Input = styled.input`
 interface StringItemInterface {
   title: string;
   length: number | undefined;
-
   setNewFormValues: any;
 }
 
